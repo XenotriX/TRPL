@@ -158,44 +158,46 @@ func(x 2 +) 5 -
 
  `+`, `-`, `*`, `/`, `==`, `!=`, `>`, `<`, `>=`, `<=`
 
-## Built-in functions and commands
+## Built-in commands
 
-Unlike Functions, these commands are *"hard-coded"* in the interpreter. They are not written in the language itself, giving them the possibility to do things other functions cannot.
+Unlike Functions, commands are *"hard-coded"* in the interpreter. They are not written in the language itself, giving them the possibility to do things other functions cannot.
+
+Syntactically, they differ from functions in that they do not require parenthesis to be called.
 
 ### Print
 
-The `print` function can be used to print text in the console.
+The `print` command can be used to print text in the console.
 
 > The print command only supports String
 
 ```
-print("Hello World")
+print "Hello World"
 ```
 
 ```
-print(1234:String)
+print 1234:String
 ```
 
 ### Type of
 
-The `typeOf` function returns the type of the Expression given as argument.
+The `typeOf` command returns the type of the Expression given as argument.
 
 ```
-typeOf("Hello, world!") // "String"
+typeOf "Hello, world!" // "String"
 ```
 
 ```
 var x = 5
 var y = x 2 +
-typeOf(y) // "Number"
+typeOf y // "Number"
 ```
 
 ### Load
 
-The `load` function can be used to load and execute code from a file.
+The `load` command can be used to load and execute code from a file.
 
 ```
-load("script.rs")
+load "script.rs"
 ```
 
 ### Exit
