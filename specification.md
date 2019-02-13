@@ -99,7 +99,7 @@ When an Identifier referring to a **Function** is immediately followed by `()`, 
 
 ```
 var myFunc = (x) -> {
-    print (x 5 +):String
+    print (x 5 +)
 }
 
 var myVar = 5
@@ -114,7 +114,7 @@ Type casting is done by using a colon followed by the desired data type immediat
 
 ```
 var x = 5
-print "The value of x is: " + x:String
+print "The value of x is: " + x
 ```
 
 In case a cast should no be possible, the resulting value will be `undefined`.
@@ -168,14 +168,12 @@ Syntactically, they differ from functions in that they do not require parenthesi
 
 The `print` command can be used to print text in the console.
 
-> The print command only supports String
-
 ```
 print "Hello World"
 ```
 
 ```
-print 1234:String
+print 1234
 ```
 
 ### Type of
