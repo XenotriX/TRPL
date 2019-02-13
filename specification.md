@@ -125,7 +125,7 @@ In case a cast should no be possible, the resulting value will be `undefined`.
 | -------- | :----: | :-----: | :----: | :---: | :----: | :------: |
 | Number   |   ✔    |    ✔    |   〜   |   ✖   |   ✖    |    ✖     |
 | Boolean  |   ✔    |    ✔    |   〜   |   ✖   |   ✖    |    ✖     |
-| String   |   ✔    |    ✔    |   ✔    |   *   |   *    |    ✖     |
+| String   |   ✔    |    ✔    |   ✔    |   ✔   |   ✔    |    ✖     |
 | Array    |   ✖    |    ✖    |   *    |   ✔   |   ✖    |    ✖     |
 | Object   |   ✖    |    ✖    |   *    |   ✖   |   ✔    |    ✖     |
 | Function |   ✖    |    ✖    |   ✖    |   ✖   |   ✖    |    ✔     |
@@ -136,7 +136,7 @@ In case a cast should no be possible, the resulting value will be `undefined`.
 
 〜	: Only when the string represents a number or a boolean.
 
-\*	: Not possible but might be implemented later by converting them into and from json.
+\*	: Not possible but might be implemented later.
 
 ## Arithmetic
 
